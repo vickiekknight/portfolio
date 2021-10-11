@@ -1,0 +1,54 @@
+body {
+  background-color: plum;
+}
+
+img {
+  border-style: dotted;
+  border-color: SkyBlue;
+  border-width: 5px;
+  width: 25%;
+}
+
+p {
+  color: indigo;
+}
+
+h1 {
+  color: purple;
+  border-style: double;
+  border-color: SkyBlue;
+  border-width: 5px;
+}
+
+h2 {
+  color: SkyBlue;
+  font-weight: bold;
+  font-style: oblique;
+}
+.important:hover{
+  background-color: purple;
+}
+
+h3 {
+  color: navy;
+}
+
+a[href="about-me.html"] {
+  background-color: skyblue;
+  padding: 0.5rem;
+}
+
+a[href="index-first-project.html"] {
+  background-color: hotpink;
+  padding: 0.5rem;
+}
+
+a[href="https://lipsum.com/feed/html"] {
+  background-color: hotpink;
+  padding: 0.5rem;
+}
+
+a[href="index.html"] {
+  background-color: hotpink;
+  padding: 0.5rem;
+}
