@@ -1,0 +1,13 @@
+a[href= "#link"] {
+  color: lightblue;
+}
+
+aside {
+  float: right;
+  color: darkgrey;
+  font-family: sans-serif;
+}
+
+figure {
+  
+}
