@@ -2,12 +2,56 @@ a[href= "#link"] {
   color: lightblue;
 }
 
-aside {
+.weekly-cats {
   float: right;
-  color: darkgrey;
+  color: #404040;
+  font-family: sans-serif;
+  padding: 2rem;
+  margin-right: 5rem;
+}
+
+section {
   font-family: sans-serif;
 }
 
-figure {
-  
+
+.kitties {
+  font-size: 30px;
+  height: 200px;
+  background-color: steelblue;
+  color: white;
+  padding: 2rem;
+  text-indent: 150px;
+}
+
+.menu {
+  background-color: #E8E8E8;
+  padding: 1rem;
+  color: #404040;
+  text-indent: 150px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 35px;
+  color: white;
+}
+
+h2 {
+  color: steelblue;
+}
+.jeremy {
+  padding: 2rem;
+  margin-left: 150px;
+  line-height: 2em;
+
+}
+
+.bottom {
+  background-color: #404040;
+  color: white;
+  padding: 7rem;
+  text-indent: 100px;
+  margin-top: 5rem;
+  text-align: center;
 }
