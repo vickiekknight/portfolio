@@ -2,6 +2,10 @@ a[href= "#link"] {
   color: lightblue;
 }
 
+a[href= "second-page.html"] {
+  color: lightblue;
+}
+
 .weekly-cats {
   float: right;
   color: #404040;
