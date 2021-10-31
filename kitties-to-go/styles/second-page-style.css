@@ -1,0 +1,20 @@
+.cats {
+  background-color: steelblue;
+  padding: 2rem;
+  color: white;
+  height: 100px;
+  font-size: 30px;
+}
+
+section {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a[href= "#link"] {
+  color: lightblue;
+}
+
+a[href= "first-page.html"] {
+  color: lightblue;
+}
