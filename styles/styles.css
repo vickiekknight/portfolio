@@ -66,6 +66,11 @@ a[href="index.html"] {
   padding: 0.5rem;
 }
 
+a[href="kitties-to-go/index.html"] {
+  background-color: hotpink;
+  padding: 0.5rem;
+}
+
 nav {
   text-align: center;
 }
@@ -90,4 +95,17 @@ i {
 .center {
   text-align: center;
   width: 100%;
+}
+
+.contents a:hover {
+  color: lightseagreen;
+  font-size: 150%;
+}
+
+.contents h3:first-letter {
+  font-size: 200%;
+}
+
+.contents a:visited {
+  color: white;
 }
