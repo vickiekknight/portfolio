@@ -56,6 +56,12 @@ a[href="index-first-project.html"] {
   padding: 0.5rem;
 }
 
+a[href="contact-form.html"] {
+  background-color: palegreen;
+  padding: 0.5rem;
+  margin-left: 16rem;
+}
+
 a[href="https://lipsum.com/feed/html"] {
   background-color: hotpink;
   padding: 0.5rem;

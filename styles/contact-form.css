@@ -1,0 +1,50 @@
+button, input, select, textarea {
+  font-family: "Audiowide";
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1.5rem;
+  color: purple;
+}
+
+body {
+  color: purple;
+  font-weight: bold;
+  font-family: "Cinzel", sans-serif;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: purple;
+  color: skyblue;
+  border-color: skyblue;
+}
+
+input {
+  border-radius: 15px;
+  border-color: skyblue;
+}
+
+fieldset {
+  border-width: thick;
+  border-color: skyblue;
+  margin-bottom: 1.5rem;
+}
+
+fieldset input {
+  display: inline;
+}
+
+option {
+  border-color: skyblue;
+}
+
+textarea {
+  border-color: skyblue;
+  border-width: medium;
+}
+
+select {
+  border-color: skyblue;
+  border-width: medium;
+}

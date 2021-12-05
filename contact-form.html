@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/contact-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Cinzel&family=Sofia&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Contact the Developer!</h1>
+
+    <form method="GET">
+      <label>Your name:
+        <input type="text" name="applicantName">
+      </label>
+
+      <label>Your email:
+        <input type="email" name="applicantEmail">
+      </label>
+
+      <fieldset>
+        <legend>Are you interested in subscribing to the Vickie
+        Knight newsletter?</legend>
+
+          <label>
+            <input type="radio" name="special" value="yes">
+            Yes
+          </label>
+
+          <label>
+            <input type="radio" name="special" value="no">
+            No
+          </label>
+      </fieldset>
+
+      <label>What are you contacting the developer about?
+          <select name="topic">
+            <option value="">Please select</option>
+            <option value="few">Question</option>
+            <option value="some">Concern</option>
+            <option value="many">Praise</option>
+          </select>
+      </label>
+
+      <label>Type your message to the developer here:
+        <textarea name="applicantReason" rows="4"
+        cols="50"></textarea>
+      </label>
+
+      <input type="submit" value="Send Now!">
+    </form>
+  </body>
+</html>
